@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a set of scripts aiming at producing architectural drawings in Rhino3D with more control on lineweights and plots styles. It has been built on the principle of CTB function of AutoCAD.
+This repository contains a set of scripts aiming at producing architectural drawings in Rhino3D with more control on lineweights and plots styles. It has been built on the principle of CTB function of [AutoCAD](https://www.autodesk.fr/products/autocad/overview).
 
 ### 1. The Excel file that contains everything
 
@@ -10,25 +10,23 @@ This repository contains a set of scripts aiming at producing architectural draw
 
 We are taking the [CTB function](https://www.landfx.com/docs/cad-basics/plotting/item/2482-ctb.html) from AutoCAD as an example of managing plot styles.
 
-Here, instead of a CTB file, the data is stored in an Excel file.
+Here, instead of a CTB file, the data is stored in an Excel file `MLAVPlotStyles.xlsx`.
 
 In **red** are the global informations:
 
-1 - Layer hierarchy  
-2 - Full layer names  
-3 - Layer color  
-4 - Layer print color  
-5 - Layer linetype
+1. Layer hierarchy  
+2. Full layer names  
+3. Layer color  
+4. Layer print color  
+5. Layer linetype
 
 In **blue** are the informations specific to each scale (1:1000 ; 1:500 ; 1:200 ; 1:100 ; 1:50)
 
-6 - Line thickness (in pt)  
-7 - Line thickness (in mm)  
-8 - Pattern (for Illustrator only)  
+6. Line thickness (in pt)  
+7. Line thickness (in mm)  
+8. Pattern (for Illustrator only)  
 
-9a - Then we created a worksheet (*createLayers*) that recaps the full layer names and their rgb colors (will be used for step 3)
-
-9b - And finally we created a worksheet for each scale, that recaps only the information of the specific scale (will be used for step 2) :
+9. Then we created a worksheet (*createLayers*) that recaps the full layer names and their rgb colors (will be used for **step 3**). And finally we created a worksheet for each scale, that recaps only the information of the specific scale (will be used for **step 2**).
 
 ### 2. The python script that generates all the .csv and .js files from the Excel file
 
