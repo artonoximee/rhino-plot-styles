@@ -6,7 +6,7 @@ This repository contains a set of scripts aiming at producing architectural draw
 
 ### 1. The Excel file that contains everything
 
-![screenshot Excel](https://gitlab.com/mlav.land/rhinoplotstyles/-/raw/master/images/screenShotXLS-1.jpg)
+![screenshot Excel](https://raw.githubusercontent.com/artonoximee/rhino-plot-styles/master/images/screenShotXLS.jpg)
 
 We are taking the [CTB function](https://www.landfx.com/docs/cad-basics/plotting/item/2482-ctb.html) from AutoCAD as an example of managing plot styles.
 
